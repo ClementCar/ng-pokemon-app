@@ -18,7 +18,7 @@ export class BorderCardDirective {
   @HostListener('mouseenter') onMouseEnter() {
     this.setBorder(this.borderColor || this.defaultColor);
   }
-  @HostListener('mouseleave') onMouseLeave() {
+  @HostListener('mouseleave') onMouseLeave() { //small
     this.setBorder('#f5f5f5');
   }
 
